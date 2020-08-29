@@ -1,0 +1,40 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateOrder {
+  onCreateOrder {
+    id
+    email
+    dorm
+    roomNumber
+    venmoDescription
+    date
+    time
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateOrder {
+  onUpdateOrder {
+    id
+    email
+    dorm
+    roomNumber
+    venmoDescription
+    date
+    time
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteOrder {
+  onDeleteOrder {
+    id
+    email
+    dorm
+    roomNumber
+    venmoDescription
+    date
+    time
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-hydratehomieredone-dev-140043-authRole",
+            "UnauthRoleArn": "arn:aws:iam::815301551977:role/amplify-hydratehomieredone-dev-140043-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::815301551977:role/amplify-hydratehomieredone-dev-140043-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-hydratehomieredone-dev-140043-deployment",
+            "UnauthRoleName": "amplify-hydratehomieredone-dev-140043-unauthRole",
+            "StackName": "amplify-hydratehomieredone-dev-140043",
+            "StackId": "arn:aws:cloudformation:us-east-2:815301551977:stack/amplify-hydratehomieredone-dev-140043/42fa51d0-e88f-11ea-8b26-02d970724e3a",
+            "AmplifyAppId": "d1ds4unwxn242o"
+        }
+    }
+}

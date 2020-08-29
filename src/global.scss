@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+
+ .my-custom-modal-css .modal-wrapper {
+    
+    height: 60%;
+    width: 30%;
+    bottom: 19.5%;
+    left: 60%; 
+    position: absolute;
+    display: block;  
+    @media (max-width: 1200px) {
+          width: 40%;
+        } 
+    @media (max-height: 800px) {
+        bottom: 12%; 
+    }
+    @media (max-height: 600px) {
+        bottom: 8%; 
+    }
+    @media (max-height: 400px) {
+        bottom: 5%; 
+    }
+    @media (max-height: 200px) {
+        bottom: 0%; 
+    }
+  }
+
+  .paragraph .modal-wrapper {
+    color: "#38b6ff";
+  }
+  .product-image {
+        max-width:100%;
+        height:auto;
+        object-fit: contain;
+  }

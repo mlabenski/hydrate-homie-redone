@@ -230,3 +230,21 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+
+@media (prefers-color-scheme: light) {
+body[data-theme="light"]{
+  --ion-toolbar-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+ }
+.ios body[data-theme="light"] {
+  --ion-toolbar-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+ }
+.md body[data-theme="light"]{
+  --ion-toolbar-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-card-background: #ffffff;
+}}

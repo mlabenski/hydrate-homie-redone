@@ -1,0 +1,10 @@
+type Order @model {
+  id: ID!
+  email: String!
+  dorm: String!
+  roomNumber: String!
+  venmoDescription: String!
+  date: String!
+  time: String!
+}
+

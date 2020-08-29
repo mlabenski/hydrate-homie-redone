@@ -3,14 +3,21 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: '', redirectTo: 'order-form', pathMatch: 'full'
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    path: 'order-form',
+    loadChildren: () => import('./order-form/order-form.module').then( m => m.OrderFormPageModule)
   },
+  {
+    path: 'confirmation-modal-mobile',
+    loadChildren: () => import('./confirmation-modal-mobile/confirmation-modal-mobile.module').then( m => m.ConfirmationModalMobilePageModule)
+  },
+  {
+    path: 'confirmation-modal-desktop',
+    loadChildren: () => import('./confirmation-modal-desktop/confirmation-modal-desktop.module').then( m => m.ConfirmationModalDesktopPageModule)
+  }
+
 ];
 
 @NgModule({
