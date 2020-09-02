@@ -10,6 +10,11 @@
             "StackName": "amplify-hydratehomieredone-dev-140043",
             "StackId": "arn:aws:cloudformation:us-east-2:815301551977:stack/amplify-hydratehomieredone-dev-140043/42fa51d0-e88f-11ea-8b26-02d970724e3a",
             "AmplifyAppId": "d1ds4unwxn242o"
+        },
+        "categories": {
+            "auth": {
+                "hydratehomieredone2c73ae9c": {}
+            }
         }
     }
 }

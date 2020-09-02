@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
+import { AdminRouteGuard } from './admin-route.guard';
 const routes: Routes = [
   {
     path: '', redirectTo: 'order-form', pathMatch: 'full'
@@ -16,6 +16,11 @@ const routes: Routes = [
   {
     path: 'confirmation-modal-desktop',
     loadChildren: () => import('./confirmation-modal-desktop/confirmation-modal-desktop.module').then( m => m.ConfirmationModalDesktopPageModule)
+  },
+  {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then( m => m.AdminPageModule),
+    canActivate: [AdminRouteGuard],
   }
 
 ];

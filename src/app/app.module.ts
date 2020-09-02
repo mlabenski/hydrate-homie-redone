@@ -14,13 +14,13 @@ import { AppComponent } from './app.component';
 
 import { File } from '@ionic-native/file/ngx';
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
-
+import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, IonicStorageModule.forRoot(), HttpClientModule,
-    AmplifyAngularModule,
-    ReactiveFormsModule, FormsModule,
+    AmplifyAngularModule, 
+    ReactiveFormsModule, FormsModule, AmplifyUIAngularModule
   ],
   providers: [
     StatusBar,

@@ -11,8 +11,6 @@ import awsconfig from './aws-exports';
 if (environment.production) {
   enableProdMode();
 }
-API.configure(awsconfig);
-PubSub.configure(awsconfig);
-
+Amplify.configure(awsconfig);
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
