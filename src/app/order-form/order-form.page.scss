@@ -4,13 +4,23 @@
   color: green;
 }
 
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  ion-text {
+      color: black;
+  }
+}
+
 ion-toolbar {
-  padding-bottom: 210px;
+  padding-bottom: 230px;
+  @media(max-width: 1700px){
+    padding-bottom: 175px;
+  }
   @media(max-width: 1500px){
-    padding-bottom: 150px;
+    padding-bottom: 175px;
   }
   @media(max-width: 900px){
-    padding-bottom: 125px;
+    padding-bottom: 175px;
   }
 }
 
